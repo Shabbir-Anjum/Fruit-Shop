@@ -6,6 +6,7 @@ export default function Footer() {
         <footer className=' container'>
           <div className=' flex justify-between' >
             <div>
+              
               Fuits
               <ul>
                 <li>Lorem dfsdfd</li>
@@ -16,6 +17,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
+
               Services
               <ul>
               <li>Lorem</li>
@@ -25,6 +27,7 @@ export default function Footer() {
                 <li>Lorem</li>
               </ul>
             </div>
+
             <div>
               List
               <ul>
@@ -35,6 +38,7 @@ export default function Footer() {
                 <li>dfgfdg</li>
               </ul>
             </div>
+
             <div>
              <div>
               Follow Us
@@ -51,15 +55,25 @@ export default function Footer() {
              <div>
               <input type="text" />
              </div>
+
              <div>
+
               <button className='btn bg-OrangeColor'> Subcribe</button>
              </div>
+
             </div>
+
           </div>
+
          
         </footer>
         <div className=' bg-black text-white text-center mt-4'>
             copyright @ all right reserved by Shabbir Anjum
+          </div>
+          <div className='flex justify-center items-center h-screen'>
+            <div className='relative h-48 w-48 border-2 overflow-hidden box text-center'>
+              animaiton
+            </div>
           </div>
     </>
   )
