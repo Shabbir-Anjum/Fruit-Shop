@@ -70,11 +70,7 @@ export default function Footer() {
         <div className=' bg-black text-white text-center mt-4'>
             copyright @ all right reserved by Shabbir Anjum
           </div>
-          <div className='flex justify-center items-center h-screen'>
-            <div className='relative h-48 w-48 border-2 overflow-hidden box text-center'>
-              animaiton
-            </div>
-          </div>
+        
     </>
   )
 }

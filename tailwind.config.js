@@ -14,16 +14,21 @@ export default {
       colors:{
         OrangeColor:'#ff5c34',
         WhiteColor: '#f7f7f7',
-      }
+      },
+      backgroundImage: theme => ({
+        'conic-gradient': 'conic-gradient(red 20deg, transparent 120deg)',
+      }),
       
     },
     keyframes:{
-      move:{
-        '100%': {transform: 'rotate(40deg) '}
+      fullSpin:{
+        '100%': {transform: 'rotate(-360deg)'}
       }
     },
+
     animation:{
-      'movingy': 'move 1s linear'
+      'borderMove': 'fullSpin 3s linear infinite',
+      'move': 'move 4s 3s linear'
     },
     fontFamily:{
       Roboto:['Roboto', 'sans-serif'],

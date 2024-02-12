@@ -10,8 +10,11 @@
 }
 @layer utilities{
   .box::before{
-    @apply content-[''] absolute bg-red-500 w-[300px] h-[300px]  top-[-25%] left-[-25%];
+    @apply content-[''] animate-borderMove absolute bg-conic-gradient w-[300px] h-[300px]  top-[-25%] left-[-25%];
   }
+  .box::after{
+    @apply content-['Tailwind'] text-white w-[94%] h-[94%] bg-black absolute top-[3%] left-[3%] justify-center items-center flex
+  } 
   .btn{
     @apply p-4 text-green-300;
   }
@@ -31,5 +34,6 @@
   .cardTitle{
     @apply text-orange-400  font-Kanit text-2xl;
   }
+ 
  
 }
