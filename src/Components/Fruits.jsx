@@ -4,7 +4,7 @@ import FruitsData from "./Data/Fruitsdata";
 export default function Fruits() {
   return (
     <>
-      <section className=" flex flex-col gap-8 justify-center my-10 items-center container">
+      <section id="fruit" className=" flex flex-col gap-8 justify-center my-10 items-center container">
         <div className="text-center">
           <h2 className="heading">Fresh Fruits</h2>
 

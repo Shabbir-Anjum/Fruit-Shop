@@ -4,7 +4,7 @@ import ServicesData from "./Data/ServicesData";
 export default function Services() {
   return (
     <>
-      <section className=" flex flex-col gap-8 justify-center my-10 items-center container">
+      <section id="services" className=" flex flex-col gap-8 justify-center my-10 items-center container">
         <div className="text-center">
 
           <h2 className="heading">Our Services</h2>

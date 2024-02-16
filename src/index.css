@@ -6,6 +6,9 @@
   body{
     @apply font-Roboto ;
   }
+  html{
+    @apply scroll-smooth
+  }
   
 }
 @layer utilities{

@@ -15,9 +15,6 @@ export default {
         OrangeColor:'#ff5c34',
         WhiteColor: '#f7f7f7',
       },
-      backgroundImage: theme => ({
-        'conic-gradient': 'conic-gradient(red 20deg, transparent 120deg)',
-      }),
       
     },
     keyframes:{
