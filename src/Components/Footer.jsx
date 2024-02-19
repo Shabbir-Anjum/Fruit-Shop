@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
         <footer className=' container'>
-          <div className=' flex justify-between' >
+          <div className=' flex justify-between flex-wrap' >
             <div>
               
               Fuits

@@ -13,8 +13,8 @@ export default function Fruits() {
             quasi quisquam, accusantium consequuntur.
           </div>
         </div>
-        <div className="flex  gap-16 justify-center flex-col">
-         {FruitsData.map((value, index)=>(<div className="flex gap-16 ">
+        <div className="flex  gap-16 justify-center  flex-col">
+         {FruitsData.map((value, index)=>(<div className="flex flex-col md:flex-row gap-16 ">
             <div key={index} className=" flex flex-col gap-8" >
                 <div className=" font-Kanit text-2xl ">
                    {value.title}

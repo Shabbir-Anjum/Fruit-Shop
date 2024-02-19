@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className=" bg-WhiteColor flex gap-16 items-center p-9 mt-16 justify-center ">
+    <section className=" bg-WhiteColor flex flex-col md:flex-row gap-16 items-center p-9 mt-16 justify-center ">
       <div className="flex flex-col gap-4">
-        <div className="title md:bg-red-600">Welcome to our Fruit Shop</div>
+        <div className="title ">Welcome to our Fruit Shop</div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
           cumque officia voluptatum amet quia magnam minus atque sint. In
